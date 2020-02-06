@@ -565,7 +565,7 @@ You can also trigger other custom functionality such as gathering custom field v
 `beforeSend` and `afterSend` object is as follows:
 `Event` class properties:
 * `form_id` - Current ID of form being submitted, This allows developers some way to check what fields are being sent.
-* `subject` - Subject of the currnet form. This can be modified to make it customizable.
+* `subject` - Subject of the current form. This can be modified to make it customizable.
 * `message` - Associative Array of different fields with the values submitted.
 * `from` - Email Address message is being send From.
 * `to` - Email Address message is being send To (This can be an array of multiple emails).
